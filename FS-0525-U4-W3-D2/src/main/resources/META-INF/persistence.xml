@@ -6,6 +6,8 @@
         <!-- Il nome della Persistence Unit è importante perché nel codice Java dovremo richiamarla per nome-->
 
         <!-- TODO: Aggiungi elenco delle entities -->
+        <class>andreapascarella.entities.Student</class>
+        
 
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/u4d12"/>
